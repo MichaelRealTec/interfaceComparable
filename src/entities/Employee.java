@@ -31,6 +31,6 @@ public class Employee implements Comparable<Employee>{
 	// Métodos
 	@Override
 	public int compareTo(Employee other) { // compara um objeto com outro
-		return name.compareTo(other.getName());
+		return salary.compareTo(other.getSalary());  // Caso queira mudar o parametro de comparação mude de name para salary ou vice e versa
 	}
 }
